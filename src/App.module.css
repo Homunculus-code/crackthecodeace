@@ -76,7 +76,7 @@ a{
     top: 49%;
     left: 47%;
     font-family: 'Ubuntu Mono', monospace;
-}3
+}
 
 .nope:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
