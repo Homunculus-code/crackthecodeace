@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+.normal:hover{
+  transform: scale(1.1);
+}
+
+.heading {
+  font-family: 'Aladin', cursive;
+  font-weight: 900px;
+  font-size: 70px;
+  opacity: 0.8;
+  letter-spacing: 3px;
+}
+
+html{
+  background-image: url(https://wallpapers.com/images/featured/l10z764j46agcmhb.jpg);
+  background-size:cover;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: magenta;
+}
+
+.containers{
+  position: relative;
+  bottom: 80px;
+}
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.container2{
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  border: none !important;
+  background-image: url(https://i.ibb.co/QdrJ5Mv/My-project-2.png);
+  background-size:contain;
+  align-content: center;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+  transition: transform .2s;
+}
+
+.invisi{
+  position: relative;
+  background: transparent;
+  border: none !important;
+}
+
+.texti{
+    position: absolute;
+    top: 49%;
+    left: 47%;
+    font-family: 'Ubuntu Mono', monospace;
+}3
+
+.nope:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
