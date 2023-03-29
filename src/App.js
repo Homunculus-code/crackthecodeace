@@ -80,21 +80,21 @@ const App = () => {
     if (n == 0){
       return(
        <>
-       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
-        <h1 className = {styles.heading}>Crack the Code</h1>
+       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
         <div className = {styles.containers}>
           <div className = {styles.container1}> 
             <button className = {styles.invisi}>
-              <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
-              <p className = {styles.texti}>link</p>
+               <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
+               <p className = {styles.texti}>link</p>
             </button>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} className = {styles.nope} onClick = {() => killme(1)}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(2)}/>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
           </div>
           <div className = {styles.container2}>
-            <div data-aos="flip-right"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(3)}/></div>
-            <div data-aos="flip-right"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(4)}/></div>
+          <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
           </div>
+          <div data-aos="zoom-in" className = {styles.lastgem}><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(4)}/></div>  
         </div>
       </div>
       </>
@@ -103,109 +103,111 @@ const App = () => {
     else if (n == 1){
       return(
         <>
-        <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
-         <h1 className = {styles.heading}>Crack the Code</h1>
-         <div className = {styles.containers}>
-           <div className = {styles.container1}> 
-           <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-             <button className = {styles.invisi}>
+        <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
+        <div className = {styles.containers}>
+          <div className = {styles.container1}> 
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <button className = {styles.invisi}>
                <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
                <p className = {styles.texti}>link</p>
              </button>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-           </div>
-           <div className = {styles.container2}>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} />
-           </div>
-         </div>
-       </div>
+          </div>
+          <div className = {styles.container2}>
+          <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div data-aos="zoom-in" className = {styles.lastgem}><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(4)}/></div>  
+        </div>
+      </div>
        </>
       )
     }
     else if (n == 2){
       return(
         <>
-        <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
-         <h1 className = {styles.heading}>Crack the Code</h1>
-         <div className = {styles.containers}>
-           <div className = {styles.container1}> 
-           <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
+        <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
+        <div className = {styles.containers}>
+          <div className = {styles.container1}> 
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div className = {styles.container2}>
             <button className = {styles.invisi}>
                <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
                <p className = {styles.texti}>link</p>
              </button>
-           </div>
-           <div className = {styles.container2}>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} />
-           </div>
-         </div>
-       </div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div data-aos="zoom-in" className = {styles.lastgem}><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(4)}/></div>  
+        </div>
+      </div>
        </>
       )
     }
     else if (n == 3){
       return(
-        <>
-       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
-         <h1 className = {styles.heading}>Crack the Code</h1>
-         <div className = {styles.containers}>
-           <div className = {styles.container1}> 
-           <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-           </div>
-           <div className = {styles.container2}>
-             <button className = {styles.invisi}>
+      <>
+       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
+        <div className = {styles.containers}>
+          <div className = {styles.container1}> 
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div className = {styles.container2}>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <button className = {styles.invisi}>
                <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
                <p className = {styles.texti}>link</p>
              </button>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} />
-           </div>
-         </div>
-       </div>
+          </div>
+          <div data-aos="zoom-in" className = {styles.lastgem}><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} onClick = {() => killme(4)}/></div>  
+        </div>
+      </div>
       </>
       )
     }
     else if (n == 4){
       return(
-        <>
-       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
-         <h1 className = {styles.heading}>Crack the Code</h1>
-         <div className = {styles.containers}>
-           <div className = {styles.container1}> 
-           <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-            <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/>
-           </div>
-           <div className = {styles.container2}>
-             <img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope} />
+      <>
+      <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
+        <div className = {styles.containers}>
+          <div className = {styles.container1}> 
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div className = {styles.container2}>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/hRJB0TY/My-project-2-modified.png" className = {styles.nope}/></div>
+          </div>
+          <div className = {styles.lastgem}>
              <button className = {styles.invisi}>
                <img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png"/>
                <p className = {styles.texti}>link</p>
              </button>
-           </div>
-         </div>
-       </div>
+           </div>  
+        </div>
+      </div>
       </>
       )
     }
     return(
       <>
       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px", justifyItems: "flex-start"}}>
-        <h1 className = {styles.heading}>Crack the Code</h1>
+        <h1 className = {styles.heading}>Crack the Lock</h1>
         <div className = {styles.containers}>
           <div className = {styles.container1}> 
             <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(0)}/></div>
             <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(1)}/></div>
-            <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(2)}/></div>
           </div>
           <div className = {styles.container2}>
+            <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(2)}/></div>
             <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(3)}/></div>
-            <div data-aos="zoom-in"><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(4)}/></div>
           </div>
+          <div data-aos="zoom-in" className = {styles.lastgem}><img src = "https://i.ibb.co/QdrJ5Mv/My-project-2.png" className = {styles.normal} onClick = {() => killme(4)}/></div>  
         </div>
       </div>
       </>
